@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(193, 193, 223);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+main {
+    background-color: whitesmoke
+}
+#container {
+    display: grid;
+    justify-items: center;
+    gap: 5px;
+    box-shadow: 0px 0px 10px 1px rgb(29, 29, 29);
+    border-radius: 5px;
+}
+#container input {
+    width: 200px;
+    height: 30px;
+    margin: 0px 6px;
+}
+#container button {
+    margin: 10px 0px;
+}
+
